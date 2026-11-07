@@ -91,11 +91,9 @@ Manager::~Manager() {
 	// крашах MTProto (cancel-всё-выход) часть Lottie/TGS-анимаций из
 	// панели эмодзи/стикеров/GIF не успевала корректно остановиться до
 	// уничтожения менеджера — и весь процесс падал на ассерте. Это
-	// бессмысленная жёсткость в shutdown-пути: просто логирую остатки
-	// и чищу их сам, чтобы пользователь не видел вылетов.
+	// бессмысленная жёсткость в shutdown-пути: остатки просто
+	// очищаются, чтобы пользователь не видел вылетов.
 	if (!_active.empty() || !_starting.empty()) {
-		LOG(("Animations Warning: Manager destroyed with %1 active, %2 starting"
-			).arg(_active.size()).arg(_starting.size()));
 		_active.clear();
 		_starting.clear();
 	}
