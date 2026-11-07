@@ -15,9 +15,9 @@ windowSubTextFg: #999999; // gray: fallback for additional text
 windowSubTextFgOver: #919191; // darker gray: fallback for additional text with mouse over
 windowBoldFg: #222222; // dark gray: fallback for bold text
 windowBoldFgOver: #222222; // dark gray: fallback for bold text with mouse over
-windowBgActive: #40a7e3; // bright blue: fallback for blue filled active areas
+windowBgActive: #52b157; // bright blue: fallback for blue filled active areas
 windowFgActive: #ffffff; // white: fallback for text on active areas
-windowActiveTextFg: #168acd; // online blue: fallback for active text like online status
+windowActiveTextFg: #3d8542; // online blue: fallback for active text like online status
 windowShadowFg: #000000; // black: fallback for shadow
 windowShadowFgFallback: #f1f1f1; // gray: fallback for shadow without opacity
 
@@ -30,18 +30,18 @@ imageBgTransparent: #ffffff; // image background when displaying an image with o
 
 // widgets
 activeButtonBg: windowBgActive; // default active button background
-activeButtonBgOver: #39a5db; // default active button background with mouse over
-activeButtonBgRipple: #2095d0; // default active button ripple effect
+activeButtonBgOver: #48a04e; // default active button background with mouse over
+activeButtonBgRipple: #3d8542; // default active button ripple effect
 activeButtonFg: windowFgActive; // default active button text
 activeButtonFgOver: activeButtonFg; // default active button text with mouse over
-activeButtonSecondaryFg: #cceeff; // default active button additional text (selected messages counter in forward / delete buttons)
+activeButtonSecondaryFg: #d6f0d8; // default active button additional text (selected messages counter in forward / delete buttons)
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
-activeLineFg: #37a1de; // default active line (like code input field bottom border when you log in and field is focused)
+activeLineFg: #52b157; // default active line (like code input field bottom border when you log in and field is focused)
 activeLineFgError: #e48383; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 
 lightButtonBg: windowBg; // default light button background (like buttons in boxes)
-lightButtonBgOver: #e3f1fa; // default light button background with mouse over
-lightButtonBgRipple: #c9e4f6; // default light button ripple effect
+lightButtonBgOver: #e8f5ea; // default light button background with mouse over
+lightButtonBgRipple: #a9d4ad; // default light button ripple effect
 lightButtonFg: windowActiveTextFg; // default light button text
 lightButtonFgOver: lightButtonFg; // default light button text with mouse over
 
@@ -73,7 +73,7 @@ radialBg: #00000056; // default radial loader background (like in Media Viewer w
 placeholderFg: windowSubTextFg; // default input field placeholder when field is not focused (like in phone input field when you log in)
 placeholderFgActive: #aaaaaa; // default input field placeholder when field is focused
 inputBorderFg: #e0e0e0; // default input field bottom border (like in code input field when you log in and field is not focused)
-filterInputBorderFg: #54c3f3; // default rounded input field border (like in chats list search field when field is focused)
+filterInputBorderFg: #7ed683; // default rounded input field border (like in chats list search field when field is focused)
 filterInputActiveBg: windowBg; // default rounded input field active background (like in chats list search field when field is focused)
 filterInputInactiveBg: windowBgOver; // default rounded input field inactive background (like in chats list search field when field is inactive)
 checkboxFg: #b3b3b3; // default unchecked checkbox rounded rectangle
@@ -81,7 +81,7 @@ checkboxFg: #b3b3b3; // default unchecked checkbox rounded rectangle
 botKbBg: menuBgOver; // bot keyboard button background
 botKbDownBg: menuBgRipple; // bot keyboard button ripple effect
 botKbColor: windowBoldFgOver; // bot keyboard button text
-botKbPrimaryBg: #298acfcc; // bot keyboard Primary button background
+botKbPrimaryBg: #3d8542cc; // bot keyboard Primary button background
 botKbDangerBg: #e05356cc; // bot keyboard Danger button background
 botKbSuccessBg: #61c752cc; // bot keyboard Success button background
 botKbInlinePrimaryBg: #378eaeb3; // inline bot keyboard Primary button background
@@ -168,12 +168,12 @@ introBg: windowBg; // login background
 introTitleFg: windowBoldFg; // login title text
 introDescriptionFg: windowSubTextFg; // login description text
 
-introCoverTopBg: #0f89d0; // intro gradient top (from)
-introCoverBottomBg: #39b0f0; // intro gradient bottom (to)
-introCoverIconsFg: #5ec6ff; // intro cloud graphics
-introCoverPlaneTrace: #5ec6ff69; // intro plane traces
-introCoverPlaneInner: #c6d8e8; // intro plane part
-introCoverPlaneOuter: #a1bed4; // intro plane part
+introCoverTopBg: #2f7d36; // intro gradient top (from)
+introCoverBottomBg: #52b157; // intro gradient bottom (to)
+introCoverIconsFg: #8fd79a; // intro cloud graphics
+introCoverPlaneTrace: #8fd79a69; // intro plane traces
+introCoverPlaneInner: #d6ead8; // intro plane part
+introCoverPlaneOuter: #b4d4b8; // intro plane part
 introCoverPlaneTop: #ffffff; // intro plane part
 
 // dialogs
@@ -343,7 +343,7 @@ historyScrollBg: #517c414c; // scroll bar background (adjusted)
 historyScrollBgOver: #517c416b; // scroll bar background with mouse over the scroll bar (adjusted)
 
 msgInBg: windowBg; // inbox message background
-msgInBgSelected: #c2dcf2; // inbox selected message background (and background of selected text in those messages)
+msgInBgSelected: #c8e6cb; // inbox selected message background (and background of selected text in those messages)
 msgOutBg: #effdde; // outbox message background
 msgOutBgSelected: #b7dbdb; // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #358cd44c; // overlay which is filling the media parts of selected messages (like in selected photo message)
@@ -681,12 +681,12 @@ creditsBg2: #FFD951; // credits icon gradient 2, light
 creditsBg3: #f0b400; // credits icon gradient 3, dark
 creditsFg: #ba7000; // credits text on light background
 creditsStroke: #da8735; // credits icon stroke
-currencyFg: #168acd; // currency icon, blue
+currencyFg: #3d8542; // currency icon, blue
 
 rankAdminFg: #49a355; // admin badge text and pill, green
 rankOwnerFg: #956ac8; // owner badge text and pill, purple
 rankUserFg: windowSubTextFg; // regular user badge text, gray
 
-dialogsMentionIconFg: #40a7e3 | dialogsVerifiedIconBg; // chat list mention icon
+dialogsMentionIconFg: #52b157 | dialogsVerifiedIconBg; // chat list mention icon
 dialogsReactionIconFg: #e05356 | attentionButtonFg; // chat list reaction icon
 dialogsPollIconFg: #997be1 | historyPeer5NameFg; // chat list poll icon
